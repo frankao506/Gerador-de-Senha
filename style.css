@@ -1,0 +1,132 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #18181b;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 600px;
+  margin-bottom: 24px;
+}
+
+.container {
+  max-width: 400px;
+  margin: 15px 0;
+}
+
+.container span {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  background: #dfdfdf;
+  margin-top: 8px;
+  outline: none;
+}
+
+
+
+
+
+.button-cta {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 40px;
+  border: 0;
+  background-color: #3eb72b;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
+
+.container-password {
+  max-width: 480px;
+  margin: 14px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 28px;
+  color: #fff;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.40);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 1px solid #313131;
+  margin-top: 12px;
+  transition: transform 0.5s;
+}
+
+
+.password:hover {
+  transform: scale(1.05);
+}
+
+.senha {
+  color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 8px 8px;
+  background: rgb(15, 15, 15);
+  font-size: 18px;
+  border-radius: 6px;
+  top: 20px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.container-password:hover .senha {
+  visibility: visible;
+  bottom: 50px;
+  opacity: 1;
+}
+
+.hide {
+  display: none;
+}
